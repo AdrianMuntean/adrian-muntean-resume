@@ -35,12 +35,12 @@ function resumeHandler() {
     inquirer
       .prompt({
         type: "list",
-        name: "exitBack",
+        name: "exitOrBack",
         message: "Go back or Exit?",
         choices: ["Go Back", "Exit"]
       })
       .then(choice => {
-        if (choice.choices == "Go Back") {
+        if (choice.exitOrBack == "Go Back") {
           resumeHandler();
         } else {
           return;
