@@ -1,0 +1,10 @@
+In order to publish something on npm repository you need to follow the following steps:
+
+ 1. Register yourself on npmjs.com
+ 2. Add a user to you npm cli tool with "npm adduser"
+ 3. Making your project ready for publishing. Add these following lines to the package.json file of your cli app:
+	"bin": {
+		"<your package name>": "./index.js"
+	}
+ 4. Publish the package: "npm publish --access=public"
+ 5. Upon upgrading increase the proper semantic version: "npm version patch", "npm version minor" or "npm version major". After that just "npm publish"  
