@@ -1,10 +1,10 @@
 #!/usr/bin/env node
-"use strict";
 
 var inquirer = require("inquirer");
 var chalk = require("chalk");
 
 var response = chalk.bold.green;
+var header = chalk.bold.underline.cyan;
 
 var resume = require("./resume.json");
 
@@ -25,13 +25,14 @@ function resumeHandler() {
     if (answer.resumeOptions == "Exit") {
       return;
     }
+    clearScreen();
     var option = answer.resumeOptions;
     console.log(response("--------------------------------------"));
+    console.log(header(option));
     resume[`${option}`].forEach(info => {
       console.log(response("|   => " + info));
     });
     console.log(response("--------------------------------------"));
-    // console.log(resume[`${option}`]);
     inquirer
       .prompt({
         type: "list",
@@ -47,6 +48,10 @@ function resumeHandler() {
         }
       });
   });
+}
+
+function clearScreen() {
+  console.log('\033[2J');
 }
 
 main();
