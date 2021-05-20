@@ -1,30 +1,30 @@
 {
-"Education": [
-"Technical University of Cluj-Napoca - MS degree in Distributed Systems and Computer networks",
-"Technical University of Cluj-Napoca - BS degree in Computer Science", 
-"Some highschool"
-],
-"Work Experience": [
-"Tora Trading Services - Java intern: Aug 2015 - Dec 2015",
-"Tora Trading Services - Junior Java developer: Jan 2016 - May 2017",
-"Ullink (Itiviti) - Java developer: Jun 2017 - Oct 2018",
-"Teaching assistant at Technical University of Cluj-Napoca: Oct 2017 - Present",
-"Sector Labs - Full stack developer: Oct 2018 - Present"
-],
-"Tech Stack": [
-"Java ++++",
-"Kotlin ++",
-"Groovy  ++",
-"ReactJs +++",
-"Python +++",
-"Django +++",
-"some NodeJS +"
-],
-"Projects": [
-"View some of them on my GitHub page"
-],
-"Contact": [
-"https://www.linkedin.com/in/adrian-muntean-76b103bb/",
-"https://github.com/AdrianMuntean"
-]
+   "Education":[
+      "Technical University of Cluj-Napoca - MS degree in Distributed Systems and Computer networks",
+      "Technical University of Cluj-Napoca - BS degree in Computer Science",
+      "Some highschool"
+   ],
+   "Work Experience":[
+      "Tora Trading Services - Java intern: Aug 2015 - Dec 2015",
+      "Tora Trading Services - Junior Java developer: Jan 2016 - May 2017",
+      "Ullink (Itiviti) - Java developer: Jun 2017 - Oct 2018",
+      "Teaching assistant at Technical University of Cluj-Napoca: Oct 2017 - Sept 2021",
+      "Sector Labs - Full stack developer: Oct 2018 - Present"
+   ],
+   "Tech Stack":[
+      "Java ++++",
+      "Kotlin ++",
+      "Groovy  ++",
+      "ReactJs +++",
+      "Python ++++",
+      "Django +++",
+      "NodeJS +++"
+   ],
+   "Projects":[
+      "View some of them on my GitHub page: https://github.com/AdrianMuntean"
+   ],
+   "Contact":[
+      "https://www.linkedin.com/in/adrian-muntean-76b103bb/",
+      "https://github.com/AdrianMuntean"
+   ]
 }
