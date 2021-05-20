@@ -1,6 +1,6 @@
 {
   "name": "adrian-muntean-resume",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A CLI resume :)",
   "main": "index.js",
   "scripts": {
